@@ -1,0 +1,41 @@
+{
+    "products":[
+        {
+            "id":3 ,
+            "name":"Lenevo",
+            "category":"Computers",
+            "price":799,
+            "description":"Lenevo 2022 new latest 3 laptop ",
+            "imageFilename":"lenovolaptop.png",
+            "createdAt":"2023-07-13T17:46:54.B900000"
+        },
+        {
+            "id":4 ,
+            "name":"Iphone",
+            "category":"Mobile Phone",
+            "price":455,
+            "description":"Iphone  2022 new latest 3 laptop ",
+            "imageFilename":"lenovolaptop.png",
+            "createdAt":"2023-07-13T17:46:54.B900000"
+        },
+        {
+            "id":5 ,
+            "name":"Lenevo",
+            "category":"Computers",
+            "price":799,
+            "description":"Lenevo 2022 new latest 3 laptop ",
+            "imageFilename":"lenovolaptop.png",
+            "createdAt":"2023-07-13T17:46:54.B900000"
+        }
+        ,
+        {
+            "id":6 ,
+            "name":"Lenevo",
+            "category":"Computers",
+            "price":799,
+            "description":"Lenevo 2022 new latest 3 laptop ",
+            "imageFilename":"lenovolaptop.png",
+            "createdAt":"2023-07-13T17:46:54.B900000"
+        }
+    ]
+}
