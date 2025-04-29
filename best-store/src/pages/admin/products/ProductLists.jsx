@@ -24,6 +24,22 @@ export default function ProductLists(){
     }
 
     useEffect(getProducts,[])
+
+    function deleteProduct(id){
+         fetch("http://localhost:3000/products/"+ id ,{
+            method:"DELETE"
+         })
+         .then(response =>{
+            if(!response.ok){
+                throw new Error();
+            }
+
+            getProducts();
+         })
+         .catch(error =>{
+            alert ("Unable to delete product ");
+         })
+    }
     return(<>
        <div className="container my-4">
           <h2 className="text text-center">Products</h2>
@@ -63,15 +79,15 @@ export default function ProductLists(){
                                 <td>{product.price}$</td>
                                 {/* <td>{product.description}</td> */}
                                 <td>
-                                    <img src={"http://localhost:3000/products/img/"+product.imageFilename} alt="..." 
+                                    <img src={"http://localhost:3000/img/"+product.imageFilename} alt="..." 
                                     width="100px"  />
                                 </td>
                                 <td>{product.createdAt.slice(0,10)}</td>
                                 <td style={{width:"10px" , whiteSpace:"nowrap"}}>
                                       <Link className="btn btn-primary btn-sm me-1 " 
-                                      to={"/admin/products/edit"+product.id}>
+                                      to={"/admin/products/edit/"+product.id}>
                                       Edit </Link>
-                                      <button type="button" className="btn btn-danger btn-sm">
+                                      <button onClick={()=>{deleteProduct(product.id)}} type="button" className="btn btn-danger btn-sm">
                                         Delete
                                       </button>
                                 </td>

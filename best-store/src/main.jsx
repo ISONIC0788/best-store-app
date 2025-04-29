@@ -7,6 +7,7 @@ import Contacts from './pages/Contacts';
 import NotFound from './pages/NotFound';
 import ProductLists from './pages/admin/products/ProductLists';
 import CreateProduct from './pages/admin/products/CreateProduct';
+import EditeProduct from './pages/admin/products/EditeProduct';
 
 function App(){
   return(<BrowserRouter>
@@ -16,6 +17,7 @@ function App(){
             <Route path='/contacts' element ={<Contacts/>}/>
             <Route path='/admin/products' element ={<ProductLists/>}/>
             <Route path='/admin/products/create' element ={<CreateProduct/>}/>
+            <Route path='/admin/products/edit/:id' element ={<EditeProduct/>}/>
             <Route path='*' element ={<NotFound/>}/>
          </Routes>
        <Footer/>
