@@ -1,41 +1,90 @@
 {
-    "products":[
-        {
-            "id":3 ,
-            "name":"Lenevo",
-            "category":"Computers",
-            "price":799,
-            "description":"Lenevo 2022 new latest 3 laptop ",
-            "imageFilename":"lenovolaptop.png",
-            "createdAt":"2023-07-13T17:46:54.B900000"
-        },
-        {
-            "id":4 ,
-            "name":"Iphone",
-            "category":"Mobile Phone",
-            "price":455,
-            "description":"Iphone  2022 new latest 3 laptop ",
-            "imageFilename":"lenovolaptop.png",
-            "createdAt":"2023-07-13T17:46:54.B900000"
-        },
-        {
-            "id":5 ,
-            "name":"Lenevo",
-            "category":"Computers",
-            "price":799,
-            "description":"Lenevo 2022 new latest 3 laptop ",
-            "imageFilename":"lenovolaptop.png",
-            "createdAt":"2023-07-13T17:46:54.B900000"
-        }
-        ,
-        {
-            "id":6 ,
-            "name":"Lenevo",
-            "category":"Computers",
-            "price":799,
-            "description":"Lenevo 2022 new latest 3 laptop ",
-            "imageFilename":"lenovolaptop.png",
-            "createdAt":"2023-07-13T17:46:54.B900000"
-        }
-    ]
+  "products": [
+    {
+      "id": 3,
+      "name": "Lenevo",
+      "category": "Computers",
+      "price": 799,
+      "description": "Lenevo 2022 new latest 3 laptop ",
+      "imageFilename": "lenovolaptop.png",
+      "createdAt": "2023-07-13T17:46:54.B900000"
+    },
+    {
+      "id": 4,
+      "name": "Iphone",
+      "category": "Mobile Phone",
+      "price": 455,
+      "description": "Iphone  2022 new latest 3 laptop ",
+      "imageFilename": "lenovolaptop.png",
+      "createdAt": "2023-07-13T17:46:54.B900000"
+    },
+    {
+      "id": 5,
+      "name": "Lenevo",
+      "category": "Computers",
+      "price": 799,
+      "description": "Lenevo 2022 new latest 3 laptop ",
+      "imageFilename": "lenovolaptop.png",
+      "createdAt": "2023-07-13T17:46:54.B900000"
+    },
+    {
+      "id": 6,
+      "name": "Lenevo",
+      "category": "Computers",
+      "price": 799,
+      "description": "Lenevo 2022 new latest 3 laptop ",
+      "imageFilename": "lenovolaptop.png",
+      "createdAt": "2023-07-13T17:46:54.B900000"
+    },
+    {
+      "name": "compuet",
+      "brand": "nokia",
+      "category": "phones",
+      "price": 23,
+      "description": "eleevevevdveve7dvevvvqvqejskxniugyeewfwftwfe xw",
+      "imageFilename": "1745918726267_Screenshot (7).png",
+      "createdAt": "2025-04-29T09:25:26.341Z",
+      "id": 7
+    },
+    {
+      "name": "Google pixele ",
+      "brand": "google",
+      "category": "phones",
+      "price": 23,
+      "description": "this is seven inc pixel 300",
+      "imageFilename": "1745918999192_Screenshot (3).png",
+      "createdAt": "2025-04-29T09:29:59.217Z",
+      "id": 8
+    },
+    {
+      "name": "infinix smart 7 ",
+      "brand": "techno",
+      "category": "phones",
+      "price": 23,
+      "description": "this infinix smart 8 that are allow ",
+      "imageFilename": "1745919398844_Screenshot (1).png",
+      "createdAt": "2025-04-29T09:36:38.864Z",
+      "id": 9
+    },
+    {
+      "name": "infinix smart 7 ",
+      "brand": "techno",
+      "category": "computers",
+      "price": 2,
+      "description": "eeeeeibeibeibdiebibde",
+      "imageFilename": "1745920670690_Screenshot (6).png",
+      "createdAt": "2025-04-29T09:57:50.693Z",
+      "id": 10
+    },
+    {
+      "name": "DELL 570",
+      "brand": "Dell",
+      "category": "computers",
+      "price": 400,
+      "description": "this 4th gen i7 core processor ",
+      "imageFilename": "1745920944387_Screenshot (17).png",
+      "createdAt": "2025-04-29T10:02:24.405Z",
+      "id": 11
+    }
+  ]
 }

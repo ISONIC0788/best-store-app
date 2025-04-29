@@ -28,7 +28,7 @@ const storage = multer.diskStorage({
     }
   })
   
-  const upload = multer({ storage: storage }).any()
+  const bodyParser = multer({ storage: storage }).any()
 
 // To handle POST, PUT and PATCH you need to use a body-parser
 // You can use the one used by JSON Server
@@ -47,8 +47,29 @@ server.post("/products",(req, res, next) => {
 
      if(req.body.name.length < 2){
          hasErrors = true
-         errors.name ="The name lenght should "
+         errors.name ="The name lenght should be at least two characters "
      }
+     if(req.body.category.length < 2){
+      hasErrors = true
+      errors.category ="The category should be at least 2 characters  "
+      }
+      if(req.body.price.length <= 0){
+        hasErrors = true 
+        errors.price ="The price is not valid  "
+      }
+     if(req.body.description.length < 10){
+        hasErrors = true
+        errors.description ="The descrption should be at least 10 charater lenght should "
+      }
+      if(req.body.brand < 2){
+        hasErrors = true
+        errors.brand =" The brand should be at least 2 characters  "
+      }
+      if(hasErrors){
+         res.status(400).jsonp(errors)
+         return
+      }
+      
   // Continue to JSON Server router
   next()
 })
